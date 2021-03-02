@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -34,3 +36,7 @@ Route::get('contact', function () {
 		'foo' => 'bar',
 	]);
 });
+
+Route::get('/users', [UsersController::class, 'index'])->name('users.index');
+Route::get('/users/create', [UsersController::class, 'create'])->name('users.create');
+Route::post('users', [UsersController::class, 'store'])->name('users.store');

@@ -28,6 +28,7 @@ new Vue({
     props: {
       initialPage: JSON.parse(el.dataset.page),
       resolveComponent: name => import(`./Pages/${name}`).then(module => module.default),
+      // resolveErrors: page => (page.props.errors || {}),
     },
   }),
 }).$mount(el)

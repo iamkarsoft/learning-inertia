@@ -408,7 +408,7 @@ eval("\n\nvar bind = __webpack_require__(/*! ./helpers/bind */ \"./node_modules/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm.js\");\n/* harmony import */ var _inertiajs_inertia_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @inertiajs/inertia-vue */ \"./node_modules/@inertiajs/inertia-vue/dist/index.js\");\n/* harmony import */ var _inertiajs_progress__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/progress */ \"./node_modules/@inertiajs/progress/dist/index.js\");\n\n\n\n_inertiajs_progress__WEBPACK_IMPORTED_MODULE_1__.InertiaProgress.init({\n  // The delay after which the progress bar will\n  // appear during navigation, in milliseconds.\n  delay: 250,\n  // The color of the progress bar.\n  color: '#29d',\n  // Whether to include the default NProgress styles.\n  includeCSS: true,\n  // Whether the NProgress spinner will be shown.\n  showSpinner: false\n});\nvue__WEBPACK_IMPORTED_MODULE_2__.default.use(_inertiajs_inertia_vue__WEBPACK_IMPORTED_MODULE_0__.plugin);\nvar el = document.getElementById('app');\nnew vue__WEBPACK_IMPORTED_MODULE_2__.default({\n  render: function render(h) {\n    return h(_inertiajs_inertia_vue__WEBPACK_IMPORTED_MODULE_0__.App, {\n      props: {\n        initialPage: JSON.parse(el.dataset.page),\n        resolveComponent: function resolveComponent(name) {\n          return __webpack_require__(\"./resources/js/Pages lazy recursive ^\\\\.\\\\/.*$\")(\"./\".concat(name)).then(function (module) {\n            return module[\"default\"];\n          });\n        }\n      }\n    });\n  }\n}).$mount(el);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvYXBwLmpzPzZkNDAiXSwibmFtZXMiOlsiSW5lcnRpYVByb2dyZXNzIiwiZGVsYXkiLCJjb2xvciIsImluY2x1ZGVDU1MiLCJzaG93U3Bpbm5lciIsIlZ1ZSIsInBsdWdpbiIsImVsIiwiZG9jdW1lbnQiLCJnZXRFbGVtZW50QnlJZCIsInJlbmRlciIsImgiLCJBcHAiLCJwcm9wcyIsImluaXRpYWxQYWdlIiwiSlNPTiIsInBhcnNlIiwiZGF0YXNldCIsInBhZ2UiLCJyZXNvbHZlQ29tcG9uZW50IiwibmFtZSIsInRoZW4iLCJtb2R1bGUiLCIkbW91bnQiXSwibWFwcGluZ3MiOiI7Ozs7QUFDQTtBQUNBO0FBQ0E7QUFFQUEscUVBQUEsQ0FBcUI7QUFDbkI7QUFDQTtBQUNBQyxPQUFLLEVBQUUsR0FIWTtBQUtuQjtBQUNBQyxPQUFLLEVBQUUsTUFOWTtBQVFuQjtBQUNBQyxZQUFVLEVBQUUsSUFUTztBQVduQjtBQUNBQyxhQUFXLEVBQUU7QUFaTSxDQUFyQjtBQWdCQUMsNENBQUEsQ0FBUUMsMERBQVI7QUFFQSxJQUFNQyxFQUFFLEdBQUdDLFFBQVEsQ0FBQ0MsY0FBVCxDQUF3QixLQUF4QixDQUFYO0FBRUEsSUFBSUosd0NBQUosQ0FBUTtBQUNOSyxRQUFNLEVBQUUsZ0JBQUFDLENBQUM7QUFBQSxXQUFJQSxDQUFDLENBQUNDLHVEQUFELEVBQU07QUFDbEJDLFdBQUssRUFBRTtBQUNMQyxtQkFBVyxFQUFFQyxJQUFJLENBQUNDLEtBQUwsQ0FBV1QsRUFBRSxDQUFDVSxPQUFILENBQVdDLElBQXRCLENBRFI7QUFFTEMsd0JBQWdCLEVBQUUsMEJBQUFDLElBQUk7QUFBQSxpQkFBSSxzRUFBTyxZQUFXQSxJQUFsQixHQUEwQkMsSUFBMUIsQ0FBK0IsVUFBQUMsTUFBTTtBQUFBLG1CQUFJQSxNQUFNLFdBQVY7QUFBQSxXQUFyQyxDQUFKO0FBQUE7QUFGakI7QUFEVyxLQUFOLENBQUw7QUFBQTtBQURILENBQVIsRUFPR0MsTUFQSCxDQU9VaEIsRUFQViIsImZpbGUiOiIuL3Jlc291cmNlcy9qcy9hcHAuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJcbmltcG9ydCBWdWUgZnJvbSAndnVlJ1xuaW1wb3J0IHsgQXBwLCBwbHVnaW4gfSBmcm9tICdAaW5lcnRpYWpzL2luZXJ0aWEtdnVlJ1xuaW1wb3J0IHsgSW5lcnRpYVByb2dyZXNzIH0gZnJvbSAnQGluZXJ0aWFqcy9wcm9ncmVzcydcblxuSW5lcnRpYVByb2dyZXNzLmluaXQoe1xuICAvLyBUaGUgZGVsYXkgYWZ0ZXIgd2hpY2ggdGhlIHByb2dyZXNzIGJhciB3aWxsXG4gIC8vIGFwcGVhciBkdXJpbmcgbmF2aWdhdGlvbiwgaW4gbWlsbGlzZWNvbmRzLlxuICBkZWxheTogMjUwLFxuXG4gIC8vIFRoZSBjb2xvciBvZiB0aGUgcHJvZ3Jlc3MgYmFyLlxuICBjb2xvcjogJyMyOWQnLFxuXG4gIC8vIFdoZXRoZXIgdG8gaW5jbHVkZSB0aGUgZGVmYXVsdCBOUHJvZ3Jlc3Mgc3R5bGVzLlxuICBpbmNsdWRlQ1NTOiB0cnVlLFxuXG4gIC8vIFdoZXRoZXIgdGhlIE5Qcm9ncmVzcyBzcGlubmVyIHdpbGwgYmUgc2hvd24uXG4gIHNob3dTcGlubmVyOiBmYWxzZSxcbn0pXG5cblxuVnVlLnVzZShwbHVnaW4pXG5cbmNvbnN0IGVsID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2FwcCcpXG5cbm5ldyBWdWUoe1xuICByZW5kZXI6IGggPT4gaChBcHAsIHtcbiAgICBwcm9wczoge1xuICAgICAgaW5pdGlhbFBhZ2U6IEpTT04ucGFyc2UoZWwuZGF0YXNldC5wYWdlKSxcbiAgICAgIHJlc29sdmVDb21wb25lbnQ6IG5hbWUgPT4gaW1wb3J0KGAuL1BhZ2VzLyR7bmFtZX1gKS50aGVuKG1vZHVsZSA9PiBtb2R1bGUuZGVmYXVsdCksXG4gICAgfSxcbiAgfSksXG59KS4kbW91bnQoZWwpXG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/js/app.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm.js\");\n/* harmony import */ var _inertiajs_inertia_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @inertiajs/inertia-vue */ \"./node_modules/@inertiajs/inertia-vue/dist/index.js\");\n/* harmony import */ var _inertiajs_progress__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/progress */ \"./node_modules/@inertiajs/progress/dist/index.js\");\n\n\n\n_inertiajs_progress__WEBPACK_IMPORTED_MODULE_1__.InertiaProgress.init({\n  // The delay after which the progress bar will\n  // appear during navigation, in milliseconds.\n  delay: 250,\n  // The color of the progress bar.\n  color: '#29d',\n  // Whether to include the default NProgress styles.\n  includeCSS: true,\n  // Whether the NProgress spinner will be shown.\n  showSpinner: false\n});\nvue__WEBPACK_IMPORTED_MODULE_2__.default.use(_inertiajs_inertia_vue__WEBPACK_IMPORTED_MODULE_0__.plugin);\nvar el = document.getElementById('app');\nnew vue__WEBPACK_IMPORTED_MODULE_2__.default({\n  render: function render(h) {\n    return h(_inertiajs_inertia_vue__WEBPACK_IMPORTED_MODULE_0__.App, {\n      props: {\n        initialPage: JSON.parse(el.dataset.page),\n        resolveComponent: function resolveComponent(name) {\n          return __webpack_require__(\"./resources/js/Pages lazy recursive ^\\\\.\\\\/.*$\")(\"./\".concat(name)).then(function (module) {\n            return module[\"default\"];\n          });\n        } // resolveErrors: page => (page.props.errors || {}),\n\n      }\n    });\n  }\n}).$mount(el);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvYXBwLmpzPzZkNDAiXSwibmFtZXMiOlsiSW5lcnRpYVByb2dyZXNzIiwiZGVsYXkiLCJjb2xvciIsImluY2x1ZGVDU1MiLCJzaG93U3Bpbm5lciIsIlZ1ZSIsInBsdWdpbiIsImVsIiwiZG9jdW1lbnQiLCJnZXRFbGVtZW50QnlJZCIsInJlbmRlciIsImgiLCJBcHAiLCJwcm9wcyIsImluaXRpYWxQYWdlIiwiSlNPTiIsInBhcnNlIiwiZGF0YXNldCIsInBhZ2UiLCJyZXNvbHZlQ29tcG9uZW50IiwibmFtZSIsInRoZW4iLCJtb2R1bGUiLCIkbW91bnQiXSwibWFwcGluZ3MiOiI7Ozs7QUFDQTtBQUNBO0FBQ0E7QUFFQUEscUVBQUEsQ0FBcUI7QUFDbkI7QUFDQTtBQUNBQyxPQUFLLEVBQUUsR0FIWTtBQUtuQjtBQUNBQyxPQUFLLEVBQUUsTUFOWTtBQVFuQjtBQUNBQyxZQUFVLEVBQUUsSUFUTztBQVduQjtBQUNBQyxhQUFXLEVBQUU7QUFaTSxDQUFyQjtBQWdCQUMsNENBQUEsQ0FBUUMsMERBQVI7QUFFQSxJQUFNQyxFQUFFLEdBQUdDLFFBQVEsQ0FBQ0MsY0FBVCxDQUF3QixLQUF4QixDQUFYO0FBRUEsSUFBSUosd0NBQUosQ0FBUTtBQUNOSyxRQUFNLEVBQUUsZ0JBQUFDLENBQUM7QUFBQSxXQUFJQSxDQUFDLENBQUNDLHVEQUFELEVBQU07QUFDbEJDLFdBQUssRUFBRTtBQUNMQyxtQkFBVyxFQUFFQyxJQUFJLENBQUNDLEtBQUwsQ0FBV1QsRUFBRSxDQUFDVSxPQUFILENBQVdDLElBQXRCLENBRFI7QUFFTEMsd0JBQWdCLEVBQUUsMEJBQUFDLElBQUk7QUFBQSxpQkFBSSxzRUFBTyxZQUFXQSxJQUFsQixHQUEwQkMsSUFBMUIsQ0FBK0IsVUFBQUMsTUFBTTtBQUFBLG1CQUFJQSxNQUFNLFdBQVY7QUFBQSxXQUFyQyxDQUFKO0FBQUEsU0FGakIsQ0FHTDs7QUFISztBQURXLEtBQU4sQ0FBTDtBQUFBO0FBREgsQ0FBUixFQVFHQyxNQVJILENBUVVoQixFQVJWIiwiZmlsZSI6Ii4vcmVzb3VyY2VzL2pzL2FwcC5qcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxuaW1wb3J0IFZ1ZSBmcm9tICd2dWUnXG5pbXBvcnQgeyBBcHAsIHBsdWdpbiB9IGZyb20gJ0BpbmVydGlhanMvaW5lcnRpYS12dWUnXG5pbXBvcnQgeyBJbmVydGlhUHJvZ3Jlc3MgfSBmcm9tICdAaW5lcnRpYWpzL3Byb2dyZXNzJ1xuXG5JbmVydGlhUHJvZ3Jlc3MuaW5pdCh7XG4gIC8vIFRoZSBkZWxheSBhZnRlciB3aGljaCB0aGUgcHJvZ3Jlc3MgYmFyIHdpbGxcbiAgLy8gYXBwZWFyIGR1cmluZyBuYXZpZ2F0aW9uLCBpbiBtaWxsaXNlY29uZHMuXG4gIGRlbGF5OiAyNTAsXG5cbiAgLy8gVGhlIGNvbG9yIG9mIHRoZSBwcm9ncmVzcyBiYXIuXG4gIGNvbG9yOiAnIzI5ZCcsXG5cbiAgLy8gV2hldGhlciB0byBpbmNsdWRlIHRoZSBkZWZhdWx0IE5Qcm9ncmVzcyBzdHlsZXMuXG4gIGluY2x1ZGVDU1M6IHRydWUsXG5cbiAgLy8gV2hldGhlciB0aGUgTlByb2dyZXNzIHNwaW5uZXIgd2lsbCBiZSBzaG93bi5cbiAgc2hvd1NwaW5uZXI6IGZhbHNlLFxufSlcblxuXG5WdWUudXNlKHBsdWdpbilcblxuY29uc3QgZWwgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnYXBwJylcblxubmV3IFZ1ZSh7XG4gIHJlbmRlcjogaCA9PiBoKEFwcCwge1xuICAgIHByb3BzOiB7XG4gICAgICBpbml0aWFsUGFnZTogSlNPTi5wYXJzZShlbC5kYXRhc2V0LnBhZ2UpLFxuICAgICAgcmVzb2x2ZUNvbXBvbmVudDogbmFtZSA9PiBpbXBvcnQoYC4vUGFnZXMvJHtuYW1lfWApLnRoZW4obW9kdWxlID0+IG1vZHVsZS5kZWZhdWx0KSxcbiAgICAgIC8vIHJlc29sdmVFcnJvcnM6IHBhZ2UgPT4gKHBhZ2UucHJvcHMuZXJyb3JzIHx8IHt9KSxcbiAgICB9LFxuICB9KSxcbn0pLiRtb3VudChlbClcbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/js/app.js\n");
 
 /***/ }),
 
@@ -492,6 +492,22 @@ var map = {
 	"./Home.vue": [
 		"./resources/js/Pages/Home.vue",
 		"resources_js_Pages_Home_vue"
+	],
+	"./Users/Create": [
+		"./resources/js/Pages/Users/Create.vue",
+		"resources_js_Pages_Users_Create_vue"
+	],
+	"./Users/Create.vue": [
+		"./resources/js/Pages/Users/Create.vue",
+		"resources_js_Pages_Users_Create_vue"
+	],
+	"./Users/Index": [
+		"./resources/js/Pages/Users/Index.vue",
+		"resources_js_Pages_Users_Index_vue"
+	],
+	"./Users/Index.vue": [
+		"./resources/js/Pages/Users/Index.vue",
+		"resources_js_Pages_Users_Index_vue"
 	]
 };
 function webpackAsyncContext(req) {
@@ -546,6 +562,18 @@ module.exports = webpackAsyncContext;
 /******/ 	// It's empty as some runtime module handles the default behavior
 /******/ 	__webpack_require__.x = x => {};
 /************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
@@ -576,7 +604,7 @@ module.exports = webpackAsyncContext;
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + chunkId + ".js?id=" + {"resources_js_Pages_About_vue":"c4e99b75b73afeb719ca","resources_js_Pages_Blog_vue":"20a501619416081552a9","resources_js_Pages_Contact_vue":"5832b3da885ae33ca6d7","resources_js_Pages_Home_vue":"d39622bc9d5f80cc014b"}[chunkId] + "";
+/******/ 			return "js/" + chunkId + ".js?id=" + {"resources_js_Pages_About_vue":"bc6eda51b71cb9cd2f64","resources_js_Pages_Blog_vue":"20a501619416081552a9","resources_js_Pages_Contact_vue":"8c6a0b5deaa5c7b0ba1b","resources_js_Pages_Home_vue":"1fcee6d718afb77c0e0f","resources_js_Pages_Users_Create_vue":"1df0e162374e322c9cb2","resources_js_Pages_Users_Index_vue":"a8b5a3f6a39199e6d3a1"}[chunkId] + "";
 /******/ 		};
 /******/ 	})();
 /******/ 	
