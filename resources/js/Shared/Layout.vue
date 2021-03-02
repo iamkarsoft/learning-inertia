@@ -13,6 +13,9 @@
       <div v-if="$page.props.flash.error" class="bg-danger-300 text-white">
         {{ $page.props.flash.error }}
       </div>
+
+
+
       <slot />
     </article>
   </main>
