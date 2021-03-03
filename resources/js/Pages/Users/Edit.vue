@@ -25,7 +25,9 @@
                     <section class="my-10">
                         <button type="submit">Update User</button>
                     </section>
+
                 </form>
+                        <button @click="deleteUser" class="mt-3 ">Delete User </button>
             </div>
         </div>
     </layout>
@@ -53,6 +55,14 @@ export default {
                 .then(() => {
                     this.loading = false;
                 })
+        },
+        deleteUser(){
+            if(confirm('Delete User?')){
+            this.$inertia.delete(`/users/${this.user.id}`)
+            .then(()=>{
+            })
+            }
+
         }
     }
 }
