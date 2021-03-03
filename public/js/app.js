@@ -501,6 +501,14 @@ var map = {
 		"./resources/js/Pages/Users/Create.vue",
 		"resources_js_Pages_Users_Create_vue"
 	],
+	"./Users/Edit": [
+		"./resources/js/Pages/Users/Edit.vue",
+		"resources_js_Pages_Users_Edit_vue"
+	],
+	"./Users/Edit.vue": [
+		"./resources/js/Pages/Users/Edit.vue",
+		"resources_js_Pages_Users_Edit_vue"
+	],
 	"./Users/Index": [
 		"./resources/js/Pages/Users/Index.vue",
 		"resources_js_Pages_Users_Index_vue"
@@ -604,7 +612,7 @@ module.exports = webpackAsyncContext;
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + chunkId + ".js?id=" + {"resources_js_Pages_About_vue":"c56444ed3f62e6ee7185","resources_js_Pages_Blog_vue":"20a501619416081552a9","resources_js_Pages_Contact_vue":"82ef8be7638d0e1be5d7","resources_js_Pages_Home_vue":"f29e2856ec2293401d04","resources_js_Pages_Users_Create_vue":"a24cd73b5999505033d2","resources_js_Pages_Users_Index_vue":"f63f9439ebabe04c1efb"}[chunkId] + "";
+/******/ 			return "js/" + chunkId + ".js?id=" + {"resources_js_Pages_About_vue":"c56444ed3f62e6ee7185","resources_js_Pages_Blog_vue":"20a501619416081552a9","resources_js_Pages_Contact_vue":"82ef8be7638d0e1be5d7","resources_js_Pages_Home_vue":"f29e2856ec2293401d04","resources_js_Pages_Users_Create_vue":"a24cd73b5999505033d2","resources_js_Pages_Users_Edit_vue":"2f51b486339e3aca7ce5","resources_js_Pages_Users_Index_vue":"f63f9439ebabe04c1efb"}[chunkId] + "";
 /******/ 		};
 /******/ 	})();
 /******/ 	

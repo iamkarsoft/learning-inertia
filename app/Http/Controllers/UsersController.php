@@ -69,8 +69,8 @@ class UsersController extends Controller {
 	 * @param  int  $id
 	 * @return \Illuminate\Http\Response
 	 */
-	public function edit($id) {
-		//
+	public function edit(User $user) {
+		return Inertia::render('Users/Edit', ['user' => $user]);
 	}
 
 	/**
@@ -80,8 +80,20 @@ class UsersController extends Controller {
 	 * @param  int  $id
 	 * @return \Illuminate\Http\Response
 	 */
-	public function update(Request $request, $id) {
+	public function update(Request $request, User $user) {
 		//
+		$request->validate([
+			'name' => 'required',
+			'email' => 'required|email|unique:users,email,' . $user->id,
+		]);
+
+		$user->update([
+			'name' => $request->name,
+			'email' => $request->email,
+		]);
+
+		return redirect()->route('users.index')->with('success', 'User updated!');
+
 	}
 
 	/**
